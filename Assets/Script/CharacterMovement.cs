@@ -44,6 +44,12 @@ public class CharacterMovement : MonoBehaviour
             anim.SetBool("Running", false);
             anim.SetBool("Moving", false);
         }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            anim.SetBool("Jumping", true);
+
+        }
+        
 
         // Jumping
         if (characterController.isGrounded)
@@ -51,6 +57,7 @@ public class CharacterMovement : MonoBehaviour
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
             moveDirection *= speed;
 
+            
             if (Input.GetButton("Jump"))
             {
                 anim.SetBool("Jumping", true);
@@ -70,7 +77,7 @@ public class CharacterMovement : MonoBehaviour
     void UpdateMovement()
     {
         Vector3 motion = inputVec;
-        motion *= (Mathf.Abs(inputVec.x) == 1 && Mathf.Abs(inputVec.z) == 1) ? .7f : 1;
+        motion *= (Mathf.Abs(inputVec.x) == 1 && Mathf.Abs(inputVec.z) == 1) ?.7f : 1;
 
         RotateTowardMovementDirection();
         getCameraRealtive();
