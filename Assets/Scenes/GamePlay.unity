@@ -331,9 +331,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.18183643
-  m_Height: 1.5155851
+  m_Height: 1.5090389
   m_Direction: 1
-  m_Center: {x: -0.0069524646, y: 0.76221484, z: 0}
+  m_Center: {x: -0.0069524646, y: 0.7654879, z: 0}
 --- !u!143 &654315868
 CharacterController:
   m_ObjectHideFlags: 0
@@ -379,8 +379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   rotateSpeed: 3
-  jumpSpeed: 7.5
-  gravity: 20
+  jumpForce: 5
+  gravity: 9.8
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
