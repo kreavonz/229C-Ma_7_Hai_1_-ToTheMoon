@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
@@ -52,5 +53,39 @@ public class CharacterMovement : MonoBehaviour
            
         }
         characterController.Move(moveDirection * Time.deltaTime);
+
+        UpdateMovement();
+
+    }
+
+    void UpdateMovement()
+    {
+        Vector3 motion = inputVec;
+        motion *= (Mathf.Abs(inputVec.x) == 1 && Mathf.Abs(inputVec.z) == 1)?.7f:1;
+
+        RotateTowardMovementDirection();
+        getCameraRealtive();
+    }
+    void RotateTowardMovementDirection()
+    {
+        if (inputVec != Vector3.zero) 
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation,Quaternion.LookRotation(tragetDirection),Time.deltaTime * rotateSpeed);
+        }
+
+    }
+    void getCameraRealtive()
+    {
+        Transform cameraTranform = Camera.main.transform;
+        Vector3 forward = cameraTranform.TransformDirection(Vector3.forward);
+        forward.y = 0;
+        forward = forward.normalized;
+
+        Vector3 right = new Vector3(forward.z,0,-forward.x);
+        float v = Input.GetAxisRaw("Vertical");
+        float h = Input.GetAxisRaw("Horizontal");
+
+        tragetDirection = (h * right) + (v * forward);
     }
 }
+
