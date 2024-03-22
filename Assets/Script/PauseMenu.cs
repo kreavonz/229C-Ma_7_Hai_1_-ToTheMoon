@@ -40,11 +40,6 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    public void PauseHowToPlay()
-    {
-        Debug.Log("Loading HowToPlay...");
-    }
-
     public void Exit()
     {
         Debug.Log("Quitting game...");
