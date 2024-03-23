@@ -8,11 +8,11 @@ public class ObjectManipulation : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetMouseButtonDown(1))
         {
             AttractObjects();
         }
-        else if (Input.GetKeyDown(KeyCode.E))
+        else if (Input.GetMouseButtonDown(0))
         {
             RepelObjects();
         }
