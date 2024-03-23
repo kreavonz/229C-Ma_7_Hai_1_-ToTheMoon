@@ -9,7 +9,6 @@ public class SideScrollingController : MonoBehaviour
     private Rigidbody rb;
     private Animator anim;
     private bool facingToRight;
-    private bool isGrounded;
 
     void Start()
     {
@@ -34,23 +33,12 @@ public class SideScrollingController : MonoBehaviour
             Flip();
         }
 
-        CheckGrounded();
-
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            Jump();
-        }
-    }
-
-    void CheckGrounded()
-    {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, 0.1f, LayerMask.GetMask("Ground"));
-        isGrounded = colliders.Length > 0;
     }
 
     void Jump()
     {
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        anim.SetBool("Jumping", true);
     }
 
     void Flip()
