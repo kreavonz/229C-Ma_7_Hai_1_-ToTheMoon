@@ -5,7 +5,7 @@ using UnityEngine;
 public class HowToPlayInGame : MonoBehaviour
 {
     public Behaviour HowToPlayCanvas;
-
+          
     public void HowToPlayUI()
     {
         HowToPlayCanvas.enabled = !HowToPlayCanvas.enabled;
