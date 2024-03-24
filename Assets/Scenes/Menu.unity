@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28172383, g: 0.25494647, b: 0.2662052, a: 1}
+  m_IndirectSpecularColor: {r: 0.281013, g: 0.25429985, b: 0.26528144, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -553,7 +553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9170284676937216700, guid: 3bdeec7eeb6a0aa45bd2823cb8071e8f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -86.16319
+      value: -86.02119
       objectReference: {fileID: 0}
     - target: {fileID: 9170284676937216700, guid: 3bdeec7eeb6a0aa45bd2823cb8071e8f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -698,7 +698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2205397482155230550, guid: 2e090acb8e6321f48b2e64ede86c40c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -87.592
+      value: -87.45
       objectReference: {fileID: 0}
     - target: {fileID: 2205397482155230550, guid: 2e090acb8e6321f48b2e64ede86c40c2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -743,7 +743,7 @@ PrefabInstance:
     - target: {fileID: 3820668531781224336, guid: 2e090acb8e6321f48b2e64ede86c40c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f21cb39037be7e34da31b9bbc70c9848, type: 2}
+      objectReference: {fileID: 2100000, guid: a7cb4d45609503f4fa97dfb915f8d0b5, type: 2}
     - target: {fileID: 6313297866208172137, guid: 2e090acb8e6321f48b2e64ede86c40c2, type: 3}
       propertyPath: m_RotationOffset.x
       value: -88.24122
@@ -863,7 +863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7976584383941560606, guid: da087b990e5d3f146acf36a4edea6ff7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -86.16319
+      value: -86.02119
       objectReference: {fileID: 0}
     - target: {fileID: 7976584383941560606, guid: da087b990e5d3f146acf36a4edea6ff7, type: 3}
       propertyPath: m_LocalRotation.w
