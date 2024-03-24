@@ -15,7 +15,7 @@ https://kreangkriklam.itch.io/to-the-moon
 ### ปุ่มควบคุม (Control) :
 
 * WASD : เคลื่อนที่ (Move forward, left, backward, right.)
-* Space : กระโดด (Jump)
+* Space Bar : กระโดด (Jump)
 * คลิกซ้าย : ดึงไอเท็ม (Pull)
 * คลิกขวา : ผลักไอเท็ม (Push)
 
