@@ -30,8 +30,12 @@ https://kreangkriklam.itch.io/to-the-moon
 **UI Design**
 * 1650707571 ชัยนนท์ พรมมา
 
-### Presentations and slides :
+### Presentations and Slides :
 
 * https://www.canva.com/design/DAGAaK1y6nU/KRdfBDJPzRsl04wIn5CVPA/view?utm_content=DAGAaK1y6nU&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+### Video : 
+
+* https://youtu.be/03JL23uJy3c?si=_VcB_JUG4pTozaQE
 
 
