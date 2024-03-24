@@ -4570,8 +4570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7964975bed430148ab2ee461ac59809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attractionForce: 2000
-  repulsionForce: 2000
+  attractionForce: 3000
+  repulsionForce: 3000
   interactionRadius: 6
 --- !u!114 &654315883
 MonoBehaviour:
@@ -4599,7 +4599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98ffcc28b584174f82739e2ae875eae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceMagnitude: 8
+  forceMagnitude: 10
 --- !u!1001 &666320759
 PrefabInstance:
   m_ObjectHideFlags: 0
