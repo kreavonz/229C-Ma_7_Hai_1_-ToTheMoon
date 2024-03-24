@@ -9,17 +9,18 @@ ToTheMoon
 
 ### ปุ่มควบคุม (Control) :
 
-* WASD : เคลื่อนที่
-* คลิกซ้าย : ดึงไอเท็ม
-* คลิกขวา : ผลักไอเท็ม
+* WASD : เคลื่อนที่ (Move forward, left, backward, right.)
+* Space : กระโดด (Jump)
+* คลิกซ้าย : ดึงไอเท็ม (Pull)
+* คลิกขวา : ผลักไอเท็ม (Push)
 
 ### จัดทำโดย :
 
-Coder
+**Coder**
 * 1650700980 เกรียงไกร กล่ำสิริ 
 
-Game Design & Level Design
+**Game Design & Level Design**
 * 1650705591 กฤตภาส จุฑาเทพ
 
-UI Design
+**UI Design**
 * 1650707571 ชัยนนท์ พรมมา
