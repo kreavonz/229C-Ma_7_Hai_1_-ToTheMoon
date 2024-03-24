@@ -34,7 +34,7 @@ https://kreangkriklam.itch.io/to-the-moon
 
 * https://www.canva.com/design/DAGAaK1y6nU/KRdfBDJPzRsl04wIn5CVPA/view?utm_content=DAGAaK1y6nU&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
-### Video : 
+### Video Demo : 
 
 * https://youtu.be/03JL23uJy3c?si=_VcB_JUG4pTozaQE
 
