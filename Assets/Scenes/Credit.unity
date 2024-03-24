@@ -1706,7 +1706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1261, y: 7}
+  m_AnchoredPosition: {x: 1261, y: -109.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1945561702
@@ -1739,12 +1739,18 @@ MonoBehaviour:
 
     onigashima
 
+    LOWLYPOLY
+
+    MANUFACTURA
+    K4
+
     Gpuna
 
-    Distant
-    Lantern
+    Distant Lantern
 
-    Ernie Wrigth'
+    Ernie Wrigth
+
+    9t5 PBR'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
